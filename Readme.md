@@ -88,7 +88,20 @@ Example usage:
     $ heroku run bash
     Running `bash` attached to terminal... up, run.1627
     ~ $ ffmpeg
-    ???
+    ffmpeg version 2.0 Copyright (c) 2000-2013 the FFmpeg developers
+      built on Jul 15 2013 09:07:12 with gcc 4.4.3 (Ubuntu 4.4.3-4ubuntu5.1)
+      configuration: --enable-shared --disable-asm --enable-libmp3lame --prefix=/app/vendor/ffmpeg --extra-cflags=-I/app/vendor/lame/include --extra-ldflags=-L/app/vendor/lame/lib
+      libavutil      52. 38.100 / 52. 38.100
+      libavcodec     55. 18.102 / 55. 18.102
+      libavformat    55. 12.100 / 55. 12.100
+      libavdevice    55.  3.100 / 55.  3.100
+      libavfilter     3. 79.101 /  3. 79.101
+      libswscale      2.  3.100 /  2.  3.100
+      libswresample   0. 17.102 /  0. 17.102
+    Hyper fast Audio and Video encoder
+    usage: ffmpeg [options] [[infile options] -i infile]... {[outfile options] outfile}...
+
+    Use -h to get full help or, even better, run 'man ffmpeg'
     ~ $ exit
 
 You can also add it to upcoming builds of an existing application:
